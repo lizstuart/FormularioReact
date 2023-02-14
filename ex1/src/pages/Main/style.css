@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #ce1eb0 0%, #6b105f 100%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form{
+    height: 200px;
+    border: 1px solid rgb(255, 122, 211);
+    border-radius: 5px;
+}
+
+h2{
+    font-family:  'Itim', cursive;
+    color: #5c164f;
+}
+
+
+input{
+    border: 1px solid rgb(255, 122, 211);
+    border-radius: 5px;
+    margin: 10px;
+
+    height: 20px;
+    width: 170px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    padding: 5px;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family:  'Itim', cursive;
+    
+    align-items: center;
+    color: #bd83b2;
+    background-color: purple;
+    border: 1px solid purple;
+    border-radius: 5px;
+    margin-top: 10px;
+
+    height: 20px;
+    width: 170px;
+
+    cursor: pointer;
+}
+
+img{
+    display: flex;
+    position: relative;
+    left: 70px;
+    bottom: 27px;
+    width: 15px;
+
+    cursor: pointer;
+}
+
+.openEye{
+    background-image: url('../../assets/open-eye.svg');
+}
+
+
+
+
